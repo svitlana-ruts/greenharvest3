@@ -56,9 +56,6 @@ img {
   );
 }
 
-.container {
-}
-
 .hero-title-container {
   display: flex;
   align-items: flex-start;
