@@ -157,13 +157,9 @@ img {
   }
 
   .container {
-    width: 1280px;
     padding: 0px 0px 0px 100px;
+    width: 1280px;
   }
-
-  /* .gwe {
-    width: auto;
-  } */
 
   .hero-title-container {
     display: flex;
@@ -176,18 +172,19 @@ img {
   }
 
   .hero-title {
-    max-width: 502px;
+    width: 502px;
   }
 
   .hero-text {
-    line-height: 1.25;
-    max-width: 472px;
+    width: 472px;
+    letter-spacing: 0.02em;
   }
 
   .hero-fone {
     background-position: bottom left;
-    background-size: auto;
-    /* max-width: 650px; */
+    min-width: 650px;
+    height: 800px;
+    background-size: cover;
     background-image: url(../images/hero-img-dt-1x.jpg);
   }
 
